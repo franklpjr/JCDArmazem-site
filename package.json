@@ -27,6 +27,15 @@
     "sort-by": "^0.0.2",
     "styled-components": "^5.3.11"
   },
+  "prettier": "@alloc/prettier-config",
+  "keywords": [
+    "vite",
+    "vite-plugin",
+    "react",
+    "react17",
+    "jsx",
+    "runtime"
+  ],
   "devDependencies": {
     "@types/react": "^18.0.37",
     "@types/react-dom": "^18.0.11",
