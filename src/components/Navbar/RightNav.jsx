@@ -1,5 +1,7 @@
-import React from 'react';
 import styled from 'styled-components';
+import React from 'react'
+
+
 
 const Ul = styled.ul`
   list-style: none;
@@ -29,11 +31,11 @@ const Ul = styled.ul`
 const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
-      <li>Home</li>
-      <li>About Us</li>
-      <li>Contact Us</li>
-      <li>Sign In</li>
-      <li>Sign Up</li>
+      <li>Quem Somos</li>
+      <li>Parceiros</li>
+      <li>Churrasqueiras</li>
+      <li>Nossos Produtos</li>
+      <li>Contato</li>
     </Ul>
   )
 }
