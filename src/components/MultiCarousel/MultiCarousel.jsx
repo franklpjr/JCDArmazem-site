@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 {/* Biblioteca instalada => npm i react-alice-carousel */}
 
 import React from 'react';
@@ -13,6 +14,8 @@ import  miranda from "../../assets/miranda.png"
 import  dancor from "../../assets/dancor.png"
 import  ebara from "../../assets/ebara.png"
 import  elizabeth from "../../assets/elizabeth.png"
+import  herc from "../../assets/herc.png"
+import  vedacit from "../../assets/vedacit.png"
 import "./Multicarousel.css"
 
 const handleDragStart = (e) => e.preventDefault();
@@ -33,7 +36,9 @@ const items = [
   <img src={miranda} onDragStart={handleDragStart} role="presentation"/>,
   <img src={dancor} onDragStart={handleDragStart} role="presentation"/>,
   <img src={ebara} onDragStart={handleDragStart} role="presentation"/>,
-  <img src={elizabeth} onDragStart={handleDragStart} role="presentation"/>
+  <img src={elizabeth} onDragStart={handleDragStart} role="presentation"/>,
+  <img src={herc} onDragStart={handleDragStart} role="presentation"/>,
+  <img src={vedacit} onDragStart={handleDragStart} role="presentation"/>
 ];
 
 const Gallery = () => {
