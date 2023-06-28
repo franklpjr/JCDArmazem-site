@@ -16,6 +16,7 @@ function CarouselHome() {
           src={churrasqueiras}
           alt="First slide"
         />
+        
       </Carousel.Item>
       <Carousel.Item>
         <img
