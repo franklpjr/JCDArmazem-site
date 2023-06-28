@@ -2,7 +2,7 @@
 
 import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import tijolos from "../../assets/tijolos.jpg"
+import churrasqueiras from "../../assets/churrasqueiras.jpg"
 import tijolo2 from "../../assets/tijolo2.jpg"
 import caixas from "../../assets/caixas.jpg"
 
@@ -13,13 +13,9 @@ function CarouselHome() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={tijolos}
+          src={churrasqueiras}
           alt="First slide"
         />
-        <Carousel.Caption>
-          <h3>Churrasqueiras pré-moldadas</h3>
-          <p>1 ano de garantia contra defeitos de fabricação.</p>
-        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
